@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=simulated_pico
+CMAKE_PROJECT_NAME:STATIC=simulation
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -223,6 +223,15 @@ simulated_pico_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 simulated_pico_SOURCE_DIR:STATIC=/home/tech03/Documentos/embarcatech
+
+//Value Computed by CMake
+simulation_BINARY_DIR:STATIC=/home/tech03/Documentos/embarcatech/build
+
+//Value Computed by CMake
+simulation_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+simulation_SOURCE_DIR:STATIC=/home/tech03/Documentos/embarcatech
 
 
 ########################

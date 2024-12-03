@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/tech03/Documentos/embarcatech/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/simulated_pico.dir/all
+all: CMakeFiles/simulation.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/simulated_pico.dir/clean
+clean: CMakeFiles/simulation.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/simulated_pico.dir
+# Target rules for target CMakeFiles/simulation.dir
 
 # All Build rule for target.
-CMakeFiles/simulated_pico.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulated_pico.dir/build.make CMakeFiles/simulated_pico.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulated_pico.dir/build.make CMakeFiles/simulated_pico.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tech03/Documentos/embarcatech/build/CMakeFiles --progress-num=1,2 "Built target simulated_pico"
-.PHONY : CMakeFiles/simulated_pico.dir/all
+CMakeFiles/simulation.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation.dir/build.make CMakeFiles/simulation.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation.dir/build.make CMakeFiles/simulation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tech03/Documentos/embarcatech/build/CMakeFiles --progress-num=1,2 "Built target simulation"
+.PHONY : CMakeFiles/simulation.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/simulated_pico.dir/rule: cmake_check_build_system
+CMakeFiles/simulation.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tech03/Documentos/embarcatech/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simulated_pico.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simulation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tech03/Documentos/embarcatech/build/CMakeFiles 0
-.PHONY : CMakeFiles/simulated_pico.dir/rule
+.PHONY : CMakeFiles/simulation.dir/rule
 
 # Convenience name for target.
-simulated_pico: CMakeFiles/simulated_pico.dir/rule
-.PHONY : simulated_pico
+simulation: CMakeFiles/simulation.dir/rule
+.PHONY : simulation
 
 # clean rule for target.
-CMakeFiles/simulated_pico.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulated_pico.dir/build.make CMakeFiles/simulated_pico.dir/clean
-.PHONY : CMakeFiles/simulated_pico.dir/clean
+CMakeFiles/simulation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation.dir/build.make CMakeFiles/simulation.dir/clean
+.PHONY : CMakeFiles/simulation.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

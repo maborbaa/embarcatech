@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named simulated_pico
+# Target rules for targets named simulation
 
 # Build rule for target.
-simulated_pico: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simulated_pico
-.PHONY : simulated_pico
+simulation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simulation
+.PHONY : simulation
 
 # fast build rule for target.
-simulated_pico/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulated_pico.dir/build.make CMakeFiles/simulated_pico.dir/build
-.PHONY : simulated_pico/fast
+simulation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation.dir/build.make CMakeFiles/simulation.dir/build
+.PHONY : simulation/fast
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulated_pico.dir/build.make CMakeFiles/simulated_pico.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation.dir/build.make CMakeFiles/simulation.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +142,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulated_pico.dir/build.make CMakeFiles/simulated_pico.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation.dir/build.make CMakeFiles/simulation.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,7 +150,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulated_pico.dir/build.make CMakeFiles/simulated_pico.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation.dir/build.make CMakeFiles/simulation.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... simulated_pico"
+	@echo "... simulation"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
