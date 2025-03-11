@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -Wall -Wextra -g -nostartfiles -Wl,-Tlinker_script.ld CMakeFiles/simulated_pico.dir/main.c.o -o simulated_pico
