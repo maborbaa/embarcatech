@@ -1,1 +1,0 @@
-arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Wall -Wextra -g -nostartfiles -Tlinker_script.ld CMakeFiles/simulation.dir/main.c.o -o simulation
