@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TDD_BLINKER_V1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.st.stm32cube.ide.mcu.MCUProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeProjectNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeIdeServicesRevAev2ProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUAdvancedStructureProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUEndUserDisabledMultiCpuProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUMultiCpuProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCURootProjectNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>DRIVERS</name>
+			<type>2</type>
+			<location>/home/tech03/Documentos/2025/EMBARCATECH/RESIDENCIA/INSTITUTO_NEPEN/ESTUDO_NUCLEO-WL55JC1/25.07.04_TDD_PYTEST_WL55JC1-BLINKER/DRIVERS</location>
+		</link>
+		<link>
+			<name>SRC</name>
+			<type>2</type>
+			<location>/home/tech03/Documentos/2025/EMBARCATECH/RESIDENCIA/INSTITUTO_NEPEN/ESTUDO_NUCLEO-WL55JC1/25.07.04_TDD_PYTEST_WL55JC1-BLINKER/SRC</location>
+		</link>
+	</linkedResources>
+</projectDescription>

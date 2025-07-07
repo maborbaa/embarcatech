@@ -1,0 +1,28 @@
+# Arquivos e pastas do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+TESTS/.venv/
+
+# Relatórios de Teste e Cobertura
+htmlcov/
+.pytest_cache/
+relatorio_testes.html
+
+# Arquivos de Build do Compilador C/C++ (GCC/CubeIDE)
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.map
+*.su
+
+# Pastas de Build do STM32CubeIDE
+Debug/
+Release/
+build/
+
+# Configurações do VSCode
+.vscode/
