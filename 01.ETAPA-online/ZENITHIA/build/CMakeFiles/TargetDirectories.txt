@@ -1,3 +1,0 @@
-/home/tech03/Documentos/embarcatech/build/CMakeFiles/simulation.dir
-/home/tech03/Documentos/embarcatech/build/CMakeFiles/edit_cache.dir
-/home/tech03/Documentos/embarcatech/build/CMakeFiles/rebuild_cache.dir
