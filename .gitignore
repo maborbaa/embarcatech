@@ -1,0 +1,77 @@
+# Arquivo .gitignore para projeto Raspberry Pi Pico e Python (FastAPI)
+
+# --- Diretórios de Build e Arquivos Compilados (Pico) ---
+# Ignora a pasta inteira onde o CMake gera os arquivos de compilação
+build/
+
+# Ignora todos os tipos de arquivos de firmware e executáveis gerados
+*.uf2
+*.elf
+*.hex
+*.bin
+*.dis
+*.map
+
+# --- Arquivos específicos do VS Code ---
+# Ignora as configurações locais do usuário, que não devem ser compartilhadas
+.vscode/
+
+# Exceção: Mantenha as configurações de workspace se quiser compartilhá-las
+# com outros desenvolvedores (opcional). Se não quiser, pode remover as
+# duas linhas abaixo.
+!/.vscode/settings.json
+!/.vscode/launch.json
+
+# --- Arquivos e diretórios do Python ---
+# Ignora o ambiente virtual inteiro
+venv/
+*.venv/
+env/
+
+# Ignora o cache do Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+TESTS/.venv/
+
+# Ignora arquivos de dependências gerados pelo pip
+*.egg-info/
+pip-wheel-metadata/
+
+# Relatórios de Teste e Cobertura
+htmlcov/
+.pytest_cache/
+relatorio_testes.html
+
+# Arquivos de Build do Compilador C/C++ (GCC/CubeIDE)
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.map
+*.su
+
+# Pastas de Build do STM32CubeIDE
+Debug/
+Release/
+build/
+
+# Arquivos de configuração do STM32CubeIDE/Eclipse
+.settings/
+.project
+.cproject
+.mxproject
+
+# Arquivos de backup do STM32CubeMX
+*.bak
+
+# --- Arquivos de Sistema Operacional ---
+# Arquivos de cache do macOS
+.DS_Store
+
+# Arquivos de thumbnails do Windows
+Thumbs.db
+
